@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "React Conference",
+    "description": "Learn React, TypeScript and modern frontend development.",
+    "date": "2026-06-10",
+    "time": "10:00 AM",
+    "location": "Toronto",
+    "price": 0,
+    "category": "Technology",
+    "organizer": "Tech World"
+  },
+  {
+    "id": 2,
+    "title": "Music Festival",
+    "description": "Live music, food and entertainment.",
+    "date": "2026-06-15",
+    "time": "6:00 PM",
+    "location": "Vancouver",
+    "price": 40,
+    "category": "Music",
+    "organizer": "Music Live Inc"
+  },
+  {
+    "id": 3,
+    "title": "Art Expo",
+    "description": "Modern art exhibition with global artists.",
+    "date": "2026-06-20",
+    "time": "2:00 PM",
+    "location": "Montreal",
+    "price": 80,
+    "category": "Arts",
+    "organizer": "Art House"
+  }
+]
