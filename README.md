@@ -1,16 +1,88 @@
-# React + Vite
+# Event app 🎉
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Event Management web application built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+Users can browse events, search for events, book tickets, manage bookings, and cancel upcoming bookings.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# Features 🚀
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Events Listing
+- Display events in card layout
+- Show:
+  - Event title
+  - Description
+  - Date & time
+  - Location
+  - Category
+  - Organizer
+  - Price
+- Responsive UI
 
-## Expanding the ESLint configuration
+## Search System
+- Search events by title
+- Real-time filtering
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Booking Flow
+### Step 1: Select Tickets
+- Choose quantity
+- Dynamic total price calculation
+
+### Step 2: Attendee Details
+- Name
+- Email
+- Phone
+- Form validation
+
+### Step 3: Confirmation
+- Booking summary
+- Booking reference ID
+- Save booking
+
+## Dark Mode 🌙
+- Full dark/light theme support
+
+---
+
+# Technologies Used 🛠
+
+- React
+- Vite
+- Tailwind CSS
+- React Router DOM
+- LocalStorage
+- JavaScript / TypeScript
+
+---
+
+# Project Structure 📁
+
+```bash
+src/
+│
+├── components/
+│   ├── EventCard.tsx
+│   ├── EventList.tsx
+│   ├── Booking.tsx
+│   ├── Navbar.tsx
+│
+│
+│
+├── data/
+│   ├── events.json
+│
+│── hooks
+│   ├──useTheme.ts
+│    
+├── types/
+│   ├── Event.ts
+│
+├── App.tsx
+├── Index.css
+├── main.jsx
+
+
+
+Author: 
+Developed by Alisina Adeel
